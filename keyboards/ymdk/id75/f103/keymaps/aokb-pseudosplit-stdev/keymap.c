@@ -81,7 +81,49 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   return true;
 }
 
+// TODO move this to user
+bool caps_word_press_user(uint16_t keycode) {
+  switch (keycode) {
+    // Keycodes that continue Caps Word, with shift applied.
+    case KC_A ... KC_Z:
+    case AO_H:
+    case AO_N:
+    case AO_M:
+    case AO_W:
+    case AO_Z:
+    case AO_F:
+    case AO_G:
+      add_weak_mods(MOD_BIT(KC_LSFT));  // Apply shift to next key.
+      return true;
+    case KC_SPC:
+      add_weak_mods(MOD_BIT(KC_RALT));
+      return true;
 
+    // Keycodes that continue Caps Word, without shifting.
+    case N_0:
+    case N_1:
+    case N_2:
+    case N_3:
+    case N_4:
+    case N_5:
+    case N_6:
+    case N_7:
+    case N_8:
+    case N_9:
+    case KC_P1 ... KC_P0:
+    case KC_1:
+    case KC_4:
+    case KC_5:
+    case KC_DEL:
+    case KC_BSPC:
+    case KC_UNDS:
+    case KC_MINS:
+      return true;
+
+    default:
+      return false;  // Deactivate Caps Word.
+  }
+}
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_AUEL_CODE] = LAYOUT_ortho_5x15( // Done
