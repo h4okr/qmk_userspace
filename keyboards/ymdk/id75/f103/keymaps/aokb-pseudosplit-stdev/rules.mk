@@ -1,7 +1,7 @@
 # additional source files
 
 # override default userspace
-USER_NAME := h4okr/stdev-nobl
+USER_NAME := h4okr/stdev
 
 # features
 CAPS_WORD_ENABLE = yes
@@ -12,3 +12,5 @@ DYNAMIC_MACRO_ENABLE = yes
 KEY_LOCK_ENABLE = yes
 MOUSEKEY_ENABLE = yes
 NKRO_ENABLE = yes
+COMMAND_ENABLE = no
+#RGBLIGHT_ENABLE = yes
