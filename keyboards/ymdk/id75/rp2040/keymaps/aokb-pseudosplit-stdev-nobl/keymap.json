@@ -1,0 +1,9 @@
+{
+    "modules": ["h4okr/custom_shift_keys"],
+    "version": 1,
+    "author": "h4okr",
+    "notes": "",
+    "keyboard": "ymdk/id75/f103",
+    "keymap": "aokb-pseudosplit-stdev-nobl",
+    "layout": "LAYOUT_ortho_5x15"
+}
