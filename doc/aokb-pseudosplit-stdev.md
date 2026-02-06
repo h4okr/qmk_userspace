@@ -11,12 +11,14 @@ Disposition : AUEL↓ (AUEL, une disposition française avec préférence pour
 Cette disposition est pensée pour un développeur écrivant à la fois en français et en anglais, et favorise les combinaisons plutôt que les déplacements en assumant une importante redondance.
 ## Couche principale
 ![](./res/aokb-pseudosplit-stdev/aokb-pseudosplit-stdev.freq.png)
+
 En rouge/orange/jaune, les touches fréquemment tapées.
 En bleu, les touches modificatrices communes, en rose, les touches modificatrices spécifiques au clavier.
 
 ### Positionnement recommandé
 La position de repos se trouve sur la ligne centrale, les index posé sur les touches L et T.
 ![](./res/aokb-pseudosplit-stdev/aokb-pseudosplit-stdev.position.png)
+
 Sur l’image ci‑dessus, chaque couleur représente un doigt qu’il est recommandé d’utiliser pour la frappe des touches : l’auriculaire en rose, l’annulaire en bleu-violet, le majeur en cyan, l’index en vert et le pouce en jaune. Les couleurs intermédiaires des zones d’incertitudes entre deux doigts.
 Les pouces gagnent énormément de rôles, puisqu’à l’espace s’ajoutent désormais 5 touches modificatrices.
 
@@ -25,13 +27,16 @@ Les pouces gagnent énormément de rôles, puisqu’à l’espace s’ajoutent d
 
 ### Variance du toucher
 Les touches ont des résistances à pression différentes pour aider la mémorisation tactile, et avoir un retour au toucher et auditif sur le placement.
+
 ![](./res/aokb-pseudosplit-stdev/aokb-pseudosplit-stdev.toucher.png)
+
 Les touches en bleu sont sonores (elles cliquent). Pour les autres, l'intensité de la couleur représente leur résistance sous les doigts.
 
 ## Couches modificatrices
 ### Modificateurs standards
 #### Contrôle
 ![](./res/aokb-pseudosplit-stdev/aokb-pseudosplit-stdev.ctrl.png)
+
 L’idée est de facilité l’adaptation pour les raccourci suivant : 
 * couper, copier, coller,
 * annuler, refaire,
@@ -40,6 +45,7 @@ Ainsi que de s’assurer que les touches hautes sont utilisables avec la touche 
 
 #### Autres modificateurs
 La même logique est appliquée dans une moindre mesure aux touches `alt` et `gui`.
+
 ![](./res/aokb-pseudosplit-stdev/aokb-pseudosplit-stdev.mods.png)
 
 ### Modificateurs thématiques
@@ -55,7 +61,9 @@ Les touches bleue pâle sont utilisées de la même façon que des accents, il f
 * `grec` puis `f` donne `φ`,
 * `devise` puis `c` donne `¢`,
 * `expos.` puis `e` donne `ᵉ`.
+* 
 ![](./res/aokb-pseudosplit-stdev/aokb-pseudosplit-stdev.bleu.png)
+
 La documentation complète pour chaque modificateur est disponible sur [bepo.fr](https://bepo.fr/wiki/Accueil), par exemple pour le ["latin"](https://bepo.fr/wiki/Latin_et_ponctuation#Caract%C3%A8res_disponibles), le [grec](https://bepo.fr/wiki/Lettres_grecques#D%C3%A9finitions) ou [les symboles scientifiques](https://bepo.fr/wiki/Symboles_scientifiques#Liste_d%C3%A9taill%C3%A9e_des_caract%C3%A8res).
 
 #### Numérique
@@ -67,7 +75,9 @@ L'ensemble des symboles mathématiques est insérable avec la main gauche seulem
 ### Modificateurs utilitaires
 #### Fonctions
 Comme la touche de déplacement, ce modificateur est activable pour pression continue ou par simple frappe.
+
 ![](./res/aokb-pseudosplit-stdev/aokb-pseudosplit-stdev.fonctions.png)
+
 Cette couche présente évidemment les touches fonctions (d'où la nécessité de pouvoir l'activer sans la maintenir), ainsi que des touches de contrôle de média (en rose) et déplacement de la souris. 
 La présence des espaces insécables vient de la position de la touches par rapport aux espaces ; au dessus de celui de droite se trouve `:` pour le très fréquent ` :`.
 
