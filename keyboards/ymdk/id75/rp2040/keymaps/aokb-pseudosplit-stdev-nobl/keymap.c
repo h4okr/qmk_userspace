@@ -127,7 +127,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ___X___,_______,_______,_______,_______,_______,  _______,_______,_______,  _______,_______,_______,_______,_______,_______
   ),
   [_NUM] = LAYOUT_ortho_5x15( // Done
-    _______,N_1,    N_2,    N_3,    N_4,    N_5,      _______,KC_CALC,_______,  AO_X,   AO_D,   AO_E,   AO_F,   KC_PAST,AO_Y,
+    _______,N_1,    N_2,    N_3,    N_4,    N_5,      _______,_______,_______,  AO_X,   AO_D,   AO_E,   AO_F,   KC_PAST,AO_Y,
     _______,N_6,    N_7,    N_8,    N_9,    N_0,      _______,_______,_______,  AO_C,   KC_P7,  KC_P8,  KC_P9,  KC_PSLS,KC_6,
     _______,KC_PSLS,KC_PAST,KC_PMNS,KC_PPLS,_______,  _______,KC_NUM, _______,  AO_B,   KC_P4,  KC_P5,  KC_P6,  KC_PMNS,KC_F9,
     _______,_______,AO_SCLN,AO_DOT, AO_CLN, _______,  _______,_______,_______,  AO_A,   KC_P1,  KC_P2,  KC_P3,  KC_PPLS,KC_EQL,

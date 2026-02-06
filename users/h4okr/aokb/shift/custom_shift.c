@@ -28,6 +28,7 @@ const custom_shift_key_t custom_shift_keys[] = {
   {AO_OBEL, BP_OBL2},
   {AO_DEGR, BP_EDQT},
   {AO_NEQL, AO_ENQL},
+  {AO_PRGH, AO_PLCW},
   // Azerty
   {AZ_DQOT, AZ_QUOT},
   {AZ_INF,  AZ_INFQ},
