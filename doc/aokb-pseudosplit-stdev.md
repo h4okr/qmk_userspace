@@ -1,8 +1,11 @@
 # aokb-pseudosplit-stdev
 ## Caractéristiques générales
 Clavier cible : [YMDK id75](https://ymdkey.com/products/id75-75-keys-ortholinear-layout-qmk-anodized-aluminum-case-plate-hot-swappable-hot-swap-type-c-pcb-mechanical-keyboard-kit) ou la [version acrylique](https://ymdkey.com/products/idobao-x-ymdk-id75-acrylic-case-kit-via-hotswap-supported-rgb-wired?pr_prod_strat=e5_desc&pr_rec_id=375eb328b&pr_rec_pid=6889882222653&pr_ref_pid=4370882330685&pr_seq=uniform).
+
 Nombre de touches : 75
+
 Pilotes compatibles : [Bépo](https://bepo.fr/wiki/Installation), AZERTY (compatibilité partielle).
+
 Disposition : AUEL↓ (AUEL, une disposition française avec préférence pour le 2 lignes basses. Séparation mains gauche et droite par 3 colonnes centrales.
 ### Description
 Cette disposition est pensée pour un développeur écrivant à la fois en français et en anglais, et favorise les combinaisons plutôt que les déplacements en assumant une importante redondance.
