@@ -51,11 +51,13 @@ La même logique est appliquée dans une moindre mesure aux touches `alt` et `gu
 ### Modificateurs thématiques
 #### Déplacement
 La touche déplacement active la couche par maintien de la touche ou par simple frappe sur la touche.
-![[aokb-pseudosplit-stdev.déplacement.png]]
+
+![](./res/aokb-pseudosplit-stdev/aokb-pseudosplit-stdev.déplacement.png)
+
 Cette couche utilise uniquement la main droite. 
 La disposition a été choisi au départ avec VIM à l’esprit, mais avec une préférence pour ← et → sur l’index et le majeur, car ils sont le plus souvent utilisés. Ce choix a été ensuite suivi par l’idée de maintenir une homogénéité de direction associée à chaque doigt.
 
-![](./res/aokb-pseudosplit-stdev/aokb-pseudosplit-stdev.déplacement.png)
+
 
 #### Bleu
 La couche bleue, sorte de touche `altgr` révisée, présente des caractères et modificateurs d'écriture à gauche, et des caractères de développeur à droite. 
@@ -69,12 +71,11 @@ Les touches bleue pâle sont utilisées de la même façon que des accents, il f
 La documentation complète pour chaque modificateur est disponible sur [bepo.fr](https://bepo.fr/wiki/Accueil), par exemple pour le ["latin"](https://bepo.fr/wiki/Latin_et_ponctuation#Caract%C3%A8res_disponibles), le [grec](https://bepo.fr/wiki/Lettres_grecques#D%C3%A9finitions) ou [les symboles scientifiques](https://bepo.fr/wiki/Symboles_scientifiques#Liste_d%C3%A9taill%C3%A9e_des_caract%C3%A8res).
 
 #### Numérique
-![[aokb-pseudosplit-stdev.numérique.png]]
+![](./res/aokb-pseudosplit-stdev/aokb-pseudosplit-stdev.numérique.png)
+
 Comme la touche de déplacement, ce modificateur est activable pour pression continue ou par simple frappe.
 La partie droite imite un pavé numérique étendu à l'écriture hexadécimale et des raccourcis pour l'utilisation de la calculatrice.
 L'ensemble des symboles mathématiques est insérable avec la main gauche seulement. Sur la ligne basse à gauche se trouvent la majorité des séparateurs utiles. Le dièse et le point‑virgules sont rapprochés à gauche pour la saisir entête et finale d'une couleur.
-
-![](./res/aokb-pseudosplit-stdev/aokb-pseudosplit-stdev.numérique.png)
 
 ### Modificateurs utilitaires
 #### Fonctions
