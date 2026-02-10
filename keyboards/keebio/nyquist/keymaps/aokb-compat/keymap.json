@@ -1,0 +1,9 @@
+{
+    "modules": ["h4okr/custom_shift_keys"],
+    "version": 1,
+    "author": "h4okr",
+    "notes": "",
+    "keyboard": "keebio/nyquist",
+    "keymap": "aokb-compat",
+    "layout": "LAYOUT_ortho_5x12"
+}

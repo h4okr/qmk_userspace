@@ -12,3 +12,5 @@
 #define _IDE_SHORTCUTS 12
 #define _MOVE 13
 #define _POINTER 20
+#define _GAMING 21
+#define _GAME_COMPAT 22
