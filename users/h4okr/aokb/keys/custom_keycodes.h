@@ -127,4 +127,6 @@ enum custom_keycodes {
   IDE_UNC,
   IDE_MPL,
   IDE_SUP,
+  // End of list mark
+  AO_SAFE_RANGE
 };

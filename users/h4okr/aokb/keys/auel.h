@@ -68,6 +68,7 @@
 #define AO_CLN  S(AO_DOT)
 #define AO_PLCW S(RALT(AO_DLR)) // ¶
 #define AO_BSLS BP_BSLS
+#define AO_QUES S(AO_APOS)      // ?
 // Diacritical dead keys
 #define AC_GRAV RALT(AO_EGRV)   // `
 #define AC_ACUT RALT(KC_W)      // ´
