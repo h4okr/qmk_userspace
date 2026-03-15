@@ -1,0 +1,11 @@
+
+#TODO ATTENTION Ajouter les dépendances de fichiers
+
+LTO_ENABLE = yes
+NKRO_ENABLE = yes
+EXTRAKEY_ENABLE = yes
+MOUSEKEY_ENABLE = yes
+QMK_SETTINGS = yes
+KEY_OVERRIDE_ENABLE = no
+SEND_STRING_ENABLE = yes
+KEY_LOCK_ENABLE = yes
