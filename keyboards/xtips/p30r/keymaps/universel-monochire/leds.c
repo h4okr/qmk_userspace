@@ -1,0 +1,33 @@
+#include "./layers.h"
+
+// Light LEDs when keyboard layer is active
+bool rgb_matrix_indicators_user(void) {
+  if (IS_LAYER_ON(_UNIV_1)) { 
+    rgb_matrix_set_color_all(RGB_CYAN);
+  }
+  if (IS_LAYER_ON(_UNIV_2)) { 
+    rgb_matrix_set_color_all(RGB_BLUE);
+  }
+  if (IS_LAYER_ON(_NUM)) { 
+    rgb_matrix_set_color_all(RGB_GREEN);
+  }
+  if (IS_LAYER_ON(_FUNCTION)) { 
+    rgb_matrix_set_color_all(RGB_PURPLE);
+  }
+  if (IS_LAYER_ON(_MOVE)) { 
+    rgb_matrix_set_color_all(RGB_ORANGE);
+  }
+  if (IS_LAYER_ON(5)) { 
+    rgb_matrix_set_color_all(RGB_SPRINGGREEN);
+  }
+  if (IS_LAYER_ON(6)) { 
+    rgb_matrix_set_color_all(RGB_CHARTREUSE);
+  }
+  if (IS_LAYER_ON(7)) { 
+    rgb_matrix_set_color_all(RGB_PURPLE);
+  }
+  if (IS_LAYER_ON(8)) { 
+    rgb_matrix_set_color_all(RGB_CORAL);
+  }
+  return true;
+}
