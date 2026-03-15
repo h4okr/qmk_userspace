@@ -78,7 +78,7 @@ bool caps_word_press_user(uint16_t keycode) {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_AUEL_WRITE] = LAYOUT_fun_full_bottom_row(
-    QK_LOCK,KC_ESC, AO_AO,  _______,MS_BTN2,MS_BTN1,                                      MS_BTN1,MS_BTN2,AO_CFG, AO_LALT,RECORD, REPLAY,
+    QK_LOCK,KC_ESC, KC_ENT, _______,MS_BTN2,MS_BTN1,                                      MS_BTN1,MS_BTN2,AO_CFG, AO_LALT,RECORD, REPLAY,
     KC_PSCR,AO_DQOT,AO_INF, AO_SUP, AO_POP, AO_PCL,                                       AO_AROB,AO_PLUS,AO_DASH,AO_SLSH,AO_ASTR,AO_EQL,
     KC_TAB, AO_Y,   AO_CIRC,AO_EACU,AO_EGRV,AO_EXLM,                                      AO_X,   AO_N,   AO_M,   AO_K,   AO_W,   AO_Z,
     AO_LALT,AO_A,   AO_U,   AO_E,   AO_L,   AO_APOS,                                      AO_R,   AO_T,   AO_S,   AO_Q,   AO_P,   AO_F,
@@ -87,7 +87,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                               AO_NUM, AO_BLUE,KC_TAB,   AO_NUM, KC_RSFT,AO_BLUE
   ),
   [_AUEL_CODE] = LAYOUT_fun_full_bottom_row(
-    QK_LOCK,KC_ESC, AO_AO,  _______,MS_BTN2,MS_BTN1,                                      MS_BTN1,MS_BTN2,AO_CFG, AO_LALT,RECORD, REPLAY,
+    QK_LOCK,KC_ESC, KC_ENT, _______,MS_BTN2,MS_BTN1,                                      MS_BTN1,MS_BTN2,AO_CFG, AO_LALT,RECORD, REPLAY,
     KC_PSCR,AO_DQOT,DV_INF, DV_SUP, AO_POP, AO_PCL,                                       AO_AROB,AO_PLUS,AO_DASH,AO_SLSH,AO_ASTR,DV_EQL,
     KC_TAB, AO_Y,   AO_CIRC,AO_EACU,AO_EGRV,DV_LNOT,                                      AO_X,   AO_N,   AO_M,   AO_K,   AO_W,   AO_Z,
     AO_LALT,AO_A,   AO_U,   AO_E,   AO_L,   AO_APOS,                                      AO_R,   AO_T,   AO_S,   AO_Q,   AO_P,   AO_F,
@@ -204,10 +204,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                               _______,_______,_______,  _______,_______,_______
   ),
   [_CONFIG] = LAYOUT_fun_full_bottom_row(
-    KC_SLEP,QK_BOOT,_______,_______,_______,_______,                                      AO_MPLS,AO_MMNS,AO_WRIT,RECSTOP,RECORD2,REPLAY2,
+    KC_SLEP,QK_BOOT,_______,_______,_______,_______,                                      AO_MPLS,AO_MMNS,_______,RECSTOP,RECORD2,REPLAY2,
     _______,_______,_______,_______,RM_HUED,RM_HUEU,                                      KC_BRIU,KC_BRID,_______,_______,_______,_______,
     _______,_______,_______,_______,RM_PREV,RM_NEXT,                                      _______,_______,_______,_______,_______,_______,
-    _______,_______,_______,_______,RM_OFF, RM_ON,                                        _______,_______,_______,_______,_______,_______,
+    _______,AO_ADVM,_______,_______,RM_OFF, RM_ON,                                        _______,AO_WRIT,_______,_______,_______,_______,
     _______,_______,_______,_______,RM_VALD,RM_VALU,                                      _______,AO_DEV, _______,_______,_______,_______,
     _______,_______,_______,_______,_______,  _______,_______,_______,  _______,_______,_______,  _______,_______,_______,_______,_______,
                                               _______,_______,_______,  _______,_______,_______
